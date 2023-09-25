@@ -1,4 +1,5 @@
 import React from 'react'
+import img from "./image.png"
 
 const Home = () => {
     return (
@@ -30,8 +31,8 @@ const Home = () => {
                         </div>
 
                         <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-2 shadow-lg rounded-lg bg-pink-500">
-                                <img alt="..." src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1051&amp;q=80" class="w-full align-middle rounded-t-lg" />
+                            <div class="relative flex flex-col min-w-0 break-word w-full mb-2 shadow-lg rounded-lg">
+                                <img alt="..." src={img} class="w-full align-middle rounded-t-lg" />
 
 
 
@@ -41,6 +42,7 @@ const Home = () => {
                 </div>
 
             </section>
+
             <div class=" flex items-center justify-center">S earch among 58340 courses and <br />find your favorite course</div>
         </div >
     )
